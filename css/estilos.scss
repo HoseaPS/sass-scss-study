@@ -1,4 +1,6 @@
 $cor-padrao: pink;
+$cor-auxiliar: #1e2c35;
+$corbranca: #fff;
 
 /** Geral **/
 body {
@@ -30,7 +32,7 @@ h2 {
 /** Header **/
 header {
   border-top: 5px solid $cor-padrao;
-  background: rgba(30, 44, 53, 0.8);
+  background: rgba($cor-auxiliar, 0.8);
   height: 90px;
   width: 100%;
   position: absolute;
@@ -58,7 +60,7 @@ header .container {
 }
 
 .menu-opcoes a {
-  color: white;
+  color: $corbranca;
   text-decoration: none;
 }
 
@@ -71,7 +73,7 @@ header .container {
   background: url(../imagens/destaque.jpg) center bottom repeat-x;
   -webkit-background-size: cover;
   background-size: cover;
-  color: white;
+  color: $corbranca;
   height: 330px;
   padding-top: 10em;
 }
@@ -160,15 +162,15 @@ header .container {
 
 /** Planos **/
 .planos {
-  background: #1e2c35;
+  background: $cor-auxiliar;
 }
 
 .planos h2 {
-  color: #fff;
+  color: $corbranca;
 }
 
 .plano {
-  background: white;
+  background: $corbranca;
   width: 18em;
   display: inline-block;
   margin: 1em 0 0 1.4em;
@@ -180,7 +182,7 @@ header .container {
 }
 
 .plano h3 {
-  color: #fff;
+  color: $corbranca;
   font-size: 1.8em;
   background: $cor-padrao;
   text-align: center;
@@ -218,7 +220,7 @@ header .container {
 .plano button {
   background: $cor-padrao;
   border: 0;
-  color: #fff;
+  color: $corbranca;
   width: 210px;
   height: 38px;
   font-size: 1.2em;
@@ -315,7 +317,7 @@ textarea {
   margin: 0 auto;
   background: $cor-padrao;
   border: 0;
-  color: #fff;
+  color: $corbranca;
   width: 210px;
   height: 38px;
   font-size: 1.2em;
@@ -344,7 +346,7 @@ footer::after {
 
 footer::before {
   content: "";
-  background: #1e2c35;
+  background: $cor-auxiliar;
   top: 0;
   left: 0;
   bottom: 0;
@@ -389,7 +391,7 @@ footer .container img {
 }
 
 footer a {
-  color: #fff;
+  color: $corbranca;
   text-decoration: none;
 }
 

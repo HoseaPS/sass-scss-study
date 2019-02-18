@@ -56,7 +56,7 @@ header .container {
 }
 
 .menu-opcoes a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ header .container {
   background: url(../imagens/destaque.jpg) center bottom repeat-x;
   -webkit-background-size: cover;
   background-size: cover;
-  color: white;
+  color: #fff;
   height: 330px;
   padding-top: 10em;
 }
@@ -166,7 +166,7 @@ header .container {
 }
 
 .plano {
-  background: white;
+  background: #fff;
   width: 18em;
   display: inline-block;
   margin: 1em 0 0 1.4em;
