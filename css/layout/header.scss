@@ -5,10 +5,29 @@ header {
   height: 90px;
   width: 100%;
   position: absolute;
+
+  @media #{$query-mobile} {
+    height: auto;
+  }
 }
 
 header .container {
   position: relative;
+
+  @media #{$query-mobile} {
+    position: static;
+
+    h1 {
+      max-width: 50%;
+      margin: 0 auto;
+
+      img {
+        max-width: 100%;
+        margin: .5em auto;
+        display: block;
+      }
+    }
+  }
 }
 
 .menu-principal {
@@ -17,6 +36,18 @@ header .container {
   top: -0.5em;
   font-size: 1.2em;
   font-weight: lighter;
+
+  @media #{$query-mobile} {
+    position: static;
+    display: block;
+    text-align: center;
+    width: auto;
+    
+    li {
+      margin: .4em;
+      width: auto;
+    }
+  }
 
   ul {
     padding-left: 0;
@@ -35,5 +66,4 @@ header .container {
       text-decoration: underline;
     }
   }
-
 }

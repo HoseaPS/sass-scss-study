@@ -6,6 +6,11 @@
   color: $cor-branca;
   height: 330px;
   padding-top: 10em;
+
+  @media #{$query-mobile} {
+    font-size: 14px;
+    height: 250px;
+  }
 }
 
 .destaque p {
@@ -30,6 +35,6 @@
   padding: 0.6em;
   font-size: 1.2em;
   @include borda-arredondada(50px);
-  @include sombra-padrao;
+  @extend %sombra-padrao;
   font-weight: bold;
 }
